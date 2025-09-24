@@ -1,0 +1,134 @@
+body {
+    width: 920px;
+    font-family: "Montserrat", sans-serif;;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+header {
+    display:flex;
+    background-color: rgb(233, 237, 243);
+}
+
+#general {
+    width: 60%;
+}
+
+#contact{
+    width: 40%;
+    justify-items: right;
+    line-height: 0.5;
+}
+
+.place,.city {
+    color:#528CC6;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 450;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 350;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 450;
+}
+
+section {
+    padding: 10px 10px 0 10px;
+}
+
+main {
+    display: flex;
+}
+
+#left, #right{
+    width: 50%;
+    margin: 0 20px 0 20px;
+}
+
+article {
+    margin-bottom:40px;
+}
+
+li{
+    font-weight: 300;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: 200;
+    vertical-align: top;
+    text-align: center;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.timeline {
+    position: relative;
+    width: 20px; 
+    vertical-align: top;
+}
+
+.circle {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 2;
+}
+
+.line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 103%;
+    border-radius: 1px;
+    background-color: rgb(161, 161, 161);
+    z-index: 1;
+
+}
+
+strong {
+    font-weight: 600;
+}
+
+.concepts{
+    display: inline;
+    background-color: #528CC6;
+    color: white;
+    padding: 6px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.bluetext {
+    display:flex;
+    justify-content: space-between
+}
+.place,.city{
+    display: inline;
+    justify-content: space-between;
+}
+
+#footerinfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(233, 237, 243);
+}
+
